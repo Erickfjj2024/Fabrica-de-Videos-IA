@@ -11,7 +11,6 @@ def password_entered():
     else:
         st.session_state["password_correct"] = False
 
-
 def check_password():
     """Retorna True se o usuário tiver a senha correta."""
     if "password_correct" not in st.session_state:
